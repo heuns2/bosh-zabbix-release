@@ -9,7 +9,7 @@
 $ git clone https://github.com/heuns2/bosh-zabbix-release.git
 ```
 
-- tree 구조
+- Tree 구조
 	- Jobs: Zabbix 실행 Config 파일과 서비스 실행 스크립트
 	- Packages: Zabbix 실행 소스 코드 파일에 대한 버전 명시 및 소스 코드 Build
 	- Blobs: Packages에서 사용 될 실제 소스 코드 명시
