@@ -1,14 +1,14 @@
 addons:
-- name: zabbix-agent
+- name: zabbix-agentd
   include:
     deployments:
-    - cf-73b5b47b7005f83dcf77
+    - appMetrics-43af9618b9d8fa50d087
   jobs:
   - name: zabbix_agentd
-    release: zabbix-agent
+    release: zabbix_agentd
     properties:
       zabbix:
         server_ip: 192.168.0.5
 releases:
-- name: zabbix-agent
-  version: "3.0"
+- name: zabbix_agentd
+  version: "1.0"
