@@ -1,8 +1,8 @@
 ---
-name: zabbix-agent
+name: zabbix_agentd
 
 releases:
-- {name: zabbix-agent, version: latest}
+- {name: zabbix_agentd, version: latest}
 
 stemcells:
 - alias: default
@@ -16,12 +16,12 @@ update:
   update_watch_time: 15000-300000
 
 instance_groups:
-- name: zabbix-agent
+- name: zabbix_agentd
   instances: 1
   azs: [pivotal-az]
   jobs:
   - name: zabbix_agentd
-    release: zabbix-agent
+    release: zabbix_agentd
     properties:
       zabbix:
         server_ip: 192.168.0.5

@@ -1,0 +1,5 @@
+builds:
+  cf45d91f1267e9f89a341cb3e90fc3add16a88f2fb4ca497b6ba80ed9ea43825:
+    version: cf45d91f1267e9f89a341cb3e90fc3add16a88f2fb4ca497b6ba80ed9ea43825
+    sha1: sha256:2243543faf42ef77cb5ed365f5c63f444472c4dceeca227654ca2d1628f896e5
+format-version: "2"

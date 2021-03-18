@@ -10,7 +10,7 @@ case $1 in
     mkdir -p $RUN_DIR $LOG_DIR
     chown -R vcap:vcap $RUN_DIR $LOG_DIR
 
-    PACKAGE_DIR=/var/vcap/packages/zabbix_agentd_4.4.0
+    PACKAGE_DIR=/var/vcap/packages/zabbix_agentd_3.4.11
     cd $PACKAGE_DIR
 
     export PATH=$PACKAGE_DIR/sbin:$PACKAGE_DIR/bin:$PATH

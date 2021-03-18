@@ -6,7 +6,7 @@ templates:
   zabbix_agentd.conf.erb: conf/zabbix_agentd.conf
 
 packages:
-- zabbix_agentd_4.4.0
+- zabbix_agentd_3.4.11
 
 properties: {}
 
