@@ -1,0 +1,8 @@
+---
+name: zabbix_agentd_3.4.11
+
+dependencies:
+- pcre_8.43
+
+files:
+- zabbix_3.4.11/zabbix-3.4.11.tar.gz
