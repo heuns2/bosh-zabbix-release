@@ -1,4 +1,4 @@
-# 1. Tanzu Platform - Zabbix Agent 연동
+# 1. Tanzu Application Service - Zabbix Agent 연동
 - 본 가이드는 Zabbix Agent를 Bosh Release 형태로 작성하여 Runtime Config 형태로 Bosh Deployments에 배포하여 Zabbix Server UI에서 확인하는 가이드입니다.
 
 
